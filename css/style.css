@@ -1,0 +1,197 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+a {
+  color: #a00;
+  text-decoration: none;
+  font-family: "Ubuntu", sans-serif;
+}
+
+h2 {
+  margin: 0;
+  font-weight: 400;
+  font-family: Ubuntu, raleway, sans-serif;
+}
+a:hover {
+  text-decoration: underline;
+}
+.container {
+  width: 60%;
+  margin: auto;
+}
+
+.img_profile_wrapper {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.img_profile {
+  width: 300px;
+  margin: auto;
+}
+.img_profile img {
+  width: 100%;
+  border-radius: 30000px;
+}
+
+.header h2 {
+  font-size: 28px;
+}
+
+.header p {
+  font-size: 14px;
+  display: block;
+  padding: 0;
+  margin: 0;
+  font-family: "Ubuntu Mono";
+}
+
+.header > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header > div > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header > div > div > a:not(:last-child) {
+  margin-right: 12px;
+}
+
+.header > div > div > a > svg {
+  width: 20px;
+}
+.headline {
+  display: flex;
+  align-items: center;
+  margin: 40px 0px 25px 0px;
+}
+.headline h2 {
+  white-space: nowrap;
+  padding-right: 10px;
+  font-size: 20px;
+}
+.headline:after {
+  content: "";
+  background-color: lightgrey;
+  width: 100%;
+  height: 2px;
+}
+
+.research_item {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid lightgrey;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  box-shadow: 0px 0px 3px #bbbbbb;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.research_left {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.research_right {
+  width: 20%;
+}
+
+.research_right img {
+  width: 100%;
+}
+
+.experience_item {
+  display: flex;
+  align-items: center;
+}
+
+.experience_item_right {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience_item_left {
+}
+
+.experience_item_left img {
+  width: 200px;
+}
+
+.award_list table {
+  width: 100%;
+}
+
+@media only screen and (max-width: 768pt) {
+  .container {
+    width: 90%;
+  }
+
+  .img_profile img {
+    width: 70%;
+  }
+  .header {
+    margin: 20px 0;
+    text-align: center;
+  }
+  .header > div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header > div > div {
+    margin: 20px 0;
+    justify-content: space-evenly;
+  }
+
+  .experience_item {
+    flex-direction: column;
+  }
+
+  .award_list table tbody tr {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+  }
+  .award_list table tbody tr td {
+    text-align: left !important;
+  }
+
+  .header > div > div > a {
+    display: flex;
+  }
+}
+
+.footer {
+  text-align: right;
+  font-size: 0.75em;
+  color: #999;
+  border-top: 1px solid #f4f4f4;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+.wrapper {
+  max-width: 768pt;
+  margin: 0 auto;
+}
+
+.dest {
+  font-size: 14px;
+}
+
+.author {
+  font-size: 14px;
+}
