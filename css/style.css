@@ -132,6 +132,20 @@ a:hover {
   width: 100%;
 }
 
+.footer {
+  text-align: right;
+  font-size: 0.75em;
+  color: #999;
+  border-top: 1px solid #f4f4f4;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+.wrapper {
+  max-width: 768pt;
+  margin: 0 auto;
+}
+
 @media only screen and (max-width: 768pt) {
   .container {
     width: 90%;
@@ -172,20 +186,11 @@ a:hover {
   .header > div > div > a {
     display: flex;
   }
-}
 
-.footer {
-  text-align: right;
-  font-size: 0.75em;
-  color: #999;
-  border-top: 1px solid #f4f4f4;
-  padding: 20px 0;
-  margin-top: 40px;
-}
+  .footer {
+    text-align: center;
+  }
 
-.wrapper {
-  max-width: 768pt;
-  margin: 0 auto;
 }
 
 .dest {
