@@ -31,6 +31,19 @@ a:hover {
   margin-bottom: 0;
 }
 
+.fun_details summary {
+  cursor: pointer;
+  color: #a00;
+}
+
+.fun_details summary::marker {
+  color: #a00;
+}
+
+.fun_details[open] summary {
+  margin-bottom: 8px;
+}
+
 .img_profile_wrapper {
   text-align: center;
   margin-top: 40px;
