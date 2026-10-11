@@ -59,13 +59,24 @@
     <p><span>
         Hello! I&rsquo;m Thanawat or Sky. I&rsquo;m a PhD student at The University of Tokyo under the supervision of <a href="https://takashiishida.github.io/">Prof. Takashi Ishida</a> and <a href="http://www.ms.k.u-tokyo.ac.jp/sugi/">Prof. Masashi Sugiyama</a>.
       </span>
-      <br></p>
-    <p><span>
-        I’m currently interested in reliable evaluation, robust learning, and understanding reward hacking in language models.
-      </span>
-      <br></p>
-
+      <br></p><p>Outside of research:</p>
+<ul>
+<li>I love football (soccer), both watching and playing. I support Arsenal, and my all-time favorite player is Mesut Özil. I also play volleyball and badminton, though not as well as football. I often do calisthenics workouts, but I&rsquo;m still a beginner.</li>
+<li>I love listening to sad-tone songs. Some of my favorites are <em>Everything</em> by The Black Skirts, <em>あの夢をなぞって (Ballade Ver.)</em> by YOASOBI, <em>About You</em> by The 1975, <em>เจ็บจนไม่เข้าใจ</em> by PORTRAIT, and <em>ถ้าเธอ</em> by STAMP &amp; Violette Wautier.</li>
+<li>I love listening to history stories.</li>
+<li>I love dogs.</li>
+</ul></div>
+            <div class="headline">
+    <h2>Research Interest</h2>
   </div>
+
+  <div class="about_content"><p>My research interests are <strong>unintended/unaligned behaviors in LLMs</strong> and <strong>statistical safeguarding for LLMs</strong>. For example:</p>
+<ul>
+<li>In <a href="https://arxiv.org/abs/2606.07379">NeurIPS 2026</a>, we detect coding agents gaming test suites with <a href="https://ishida-lab.github.io/blog_capcode.html">CapCode</a>, which <strong>designs the Bayes error</strong> of a coding benchmark: injecting controlled randomness sets a known <strong>cap</strong> on the best possible score (unit test pass rate), strictly below 100%, and prevent <strong>hacking rewards</strong> in RL post-training with <a href="https://ishida-lab.github.io/blog_capreward.html">CapReward</a>, which rewards as usual when the score is below the cap but penalizes it once the score goes beyond the cap.</li>
+<li>In <a href="https://arxiv.org/abs/2505.18102">ICML 2026</a>, we introduce <a href="https://ishida-lab.github.io/blog_capbencher.html">CapBencher</a>, which extends the same cap to benchmarks without unit tests, turning any score above it into a built-in alarm that flags test-set overfitting and <strong>benchmark data being contaminated</strong>.</li>
+<li>In <a href="https://openreview.net/forum?id=C7QWN4AXvp">TMLR 2025</a>, we study importance weighting for keeping LLMs aligned under deployment distribution shift where <strong>training and test data come from different objectives</strong> (e.g., training data optimized for helpfulness but test-time deployment also requiring harmlessness).</li>
+</ul></div>
+
             
             
 
